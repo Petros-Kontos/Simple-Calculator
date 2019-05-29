@@ -1,8 +1,8 @@
 function calc() {
-    var a = parseInt(document.querySelector("#input-1").value) ;
-    var b = parseInt(document.querySelector("#input-2").value) ;
-    var op = document.querySelector("#operator").value ;
-    var result;
+    let a = parseInt(document.querySelector("#input-1").value) ;
+    let b = parseInt(document.querySelector("#input-2").value) ;
+    let op = document.querySelector("#operator").value ;
+    let result;
 
     switch(op) {
         case "add":
